@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8e7f9; /* pink lembut */
+    }
+
+    .container {
+      background-color: #fff;
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(180, 100, 200, 0.25);
+      width: 360px;
+      padding: 40px 30px;
+      text-align: center;
+      border: 2px solid #e5bdf2;
+    }
+
+    .login h1 {
+      font-size: 2rem;
+      color: #a35cd8; /* ungu lembut */
+      margin-bottom: 25px;
+    }
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      margin-bottom: 20px;
+    }
+
+    .input-box input {
+      width: 100%;
+      padding: 10px 15px;
+      border: 1px solid #d6b4ea;
+      border-radius: 25px;
+      background-color: #fff;
+      color: #333;
+      font-size: 0.95rem;
+      transition: all 0.3s;
+    }
+
+    .input-box input:focus {
+      outline: none;
+      border-color: #b977d1;
+      box-shadow: 0 0 6px #e5bdf2;
+    }
+
+    .button {
+      width: 100%;
+      padding: 10px 0;
+      border: none;
+      border-radius: 25px;
+      background-color: #b977d1; /* ungu pastel solid */
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #a35cd8; /* ungu sedikit lebih tua */
+      transform: scale(1.03);
+    }
+
+    .register-link {
+      margin-top: 15px;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .register-link a {
+      color: #a35cd8;
+      text-decoration: none;
+      font-weight: 500;
+      margin-left: 5px;
+    }
+
+    .register-link a:hover {
+      text-decoration: underline;
+    }

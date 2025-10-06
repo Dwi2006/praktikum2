@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900%display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: cursive;
+}
+nav .navbar{
+    background-color: #ff4dff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar input{
+   float: right;
+   margin: 10px;
+   width: 40%;
+   height: 30px;
+   display: flex;
+   padding: 5px;
+   border-radius: 10px;
+   font-family: cursive;
+}
+.konten h1{
+    background: #ff8cbe;
+    margin-top: 100px;
+    padding-top: 100px;
+    text-align: center;
+}
