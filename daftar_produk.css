@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Concert+One&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: "Concert One", sans-serif;
+    font-weight: 700;
+}
+
+nav .navbar{
+    background-color: #ff4dff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.navbar input{
+   float: right;
+   margin: 10px;
+   width: 40%;
+   height: 30px;
+   display: flex;
+   padding: 5px;
+   border-radius: 10px;
+   font-family: cursive;
+}
+
+.head h2{
+  font-family: "Lobster", sans-serif;
+  font-size: 300%;
+  text-align: center;
+  font-style: bold;
+}
+
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background: #f1a2f1;
+    box-sizing: 80%;
+    border-radius: 10px;
+}
+
+.card{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.card-title{
+    font-family: "Concert One", sans-serif;
+    font-size: 30px;
+}
+.card-footer{
+    font-family: "Concert One", sans-serif;
+    font-size: 20px;
+    background: #7e529b;
+    color: rgb(245, 223, 236);
+}
