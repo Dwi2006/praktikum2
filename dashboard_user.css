@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Concert+One&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 100%;
+}
+
+nav{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    font-family: "Concert One", sans-serif;
+    font-weight: 700;
+}
+
+nav .navbar{
+    background-color: #ff4dff;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.navbar input{
+   float: right;
+   margin: 10px;
+   width: 40%;
+   height: 30px;
+   display: flex;
+   padding: 5px;
+   border-radius: 10px;
+   font-family: cursive;
+}
+.konten{
+    width: 800px;
+    height: 320px;
+    background: #f5bddd;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.konten h1{
+    margin: 20px;
+    padding: 20px;
+    font-family: "Concert One", sans-serif;
+    color:rgb(204, 61, 149);
+    text-align: center;
+    justify-content: center;
+}
+.konten p{
+    font-family: "Concert One", sans-serif;
+    text-align: justify;
+    margin: 20px;
+    font-size: 19px;
+    color: #da527f;
+}
+
+.link a {
+      color: #f3f0f5;
+      text-decoration: none;
+      font-size: 20px;
+      text-align: center;
+      background-color: #fa00a7;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 10px;
+}
+
+.link a:hover {
+      text-decoration: underline;
+}
+
+img{
+    width: 490px;
+    height: 500px;
+    object-fit: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
